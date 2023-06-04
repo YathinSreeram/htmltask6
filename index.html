@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h1>Registration Form</h1>
+  <form>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required><br>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" cols="30" required></textarea><br>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">Select a country</option>
+      <option value="Country 1">Country 1</option>
+      <option value="Country 2">Country 2</option>
+      <option value="Country 3">Country 3</option>
+      <!-- Add more countries up to 10 in a random order -->
+    </select><br>
+
+    <label for="languages">Languages Known:</label> 
+    <input type="checkbox" id="english" name="languages" value="English">
+    <label for="english">English</label>
+    <input type="checkbox" id="spanish" name="languages" value="Spanish">
+    <label for="spanish">Spanish</label>
+    <input type="checkbox" id="french" name="languages" value="French">
+    <label for="french">French</label></form><br>
+    <!-- Add more language options as needed -->
+    <input type="checkbox" id="acknowledgement" name="acknowledgement" required>
+    <label for="acknowledgement">I acknowledge:</label> <br>
+    
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
